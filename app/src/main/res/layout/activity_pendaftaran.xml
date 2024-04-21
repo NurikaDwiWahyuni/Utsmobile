@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/merah">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        >
+    <!-- Nama Dosen -->
+    <TextView
+        android:id="@+id/textViewNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextNamaMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Anda"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+    <!-- NIP -->
+    <TextView
+        android:id="@+id/textViewNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIM"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Email"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul TA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Judul"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textViewJenisTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis TA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinnerJenisTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/black" />
+
+        <!-- Spinner Kategori TA -->
+        <TextView
+            android:id="@+id/textViewKategoriTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategori TA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinnerKategoriTA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/black" />
+
+        <!-- Spinner Laporan -->
+
+
+        <!-- Spinner Calon Pembimbing 1 -->
+        <TextView
+            android:id="@+id/textViewPembimbing1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calon Pembimbing 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinnerPembimbing1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/black" />
+
+        <!-- Spinner Calon Pembimbing 2 -->
+        <TextView
+            android:id="@+id/textViewPembimbing2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calon Pembimbing 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:id="@+id/spinnerPembimbing2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:background="@color/black"
+            android:textColor="@color/black"/>
+    <!-- Tombol Submit dan Kembali -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/kuning"/>
+        />
+
+       <Button
+           android:id="@+id/buttonKembali"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="Kembali"
+           android:textColor="@color/black"
+           android:textSize="30dp"
+           android:layout_marginStart="40dp"
+           android:backgroundTint="@color/kuning"/>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    
+</LinearLayout>

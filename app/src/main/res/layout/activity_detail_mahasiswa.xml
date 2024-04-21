@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/merah">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Nama Mahasiswa -->
+            <TextView
+                android:id="@+id/textViewNamaMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Mahasiswa"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/editTextNamaMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamal"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- NIM -->
+            <TextView
+                android:id="@+id/textViewNIM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/editTextNIM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12345678"
+                android:inputType="number"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jamal@gmail.com"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Judul TA -->
+            <TextView
+                android:id="@+id/textViewJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Judul TA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/editTextJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengembangan Aplikasi Sistem Informasi Geografis"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Jenis TA -->
+            <TextView
+                android:id="@+id/textViewJenisTA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis TA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laporan"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Kategori TA -->
+            <TextView
+                android:id="@+id/textViewKategoriTA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kategori TA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Individu"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Calon Pembimbing 1 -->
+            <TextView
+                android:id="@+id/textViewPembimbing1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calon Pembimbing 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Ahmad"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Calon Pembimbing 2 -->
+            <TextView
+                android:id="@+id/textViewPembimbing2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calon Pembimbing 2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Chandra"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <!-- Status TA -->
+            <TextView
+                android:id="@+id/textViewStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status TA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/spinnerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:entries="@array/status_array"/>
+
+
+            <!-- Tombol Submit dan Kembali -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/buttonKembali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Kembali"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/kuning"
+                    android:layout_marginStart="200dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

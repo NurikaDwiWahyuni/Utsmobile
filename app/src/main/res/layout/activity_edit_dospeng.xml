@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/merah">
+
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+    <!-- Nama Dosen -->
+    <TextView
+        android:id="@+id/textViewNamaDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Dosen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextNamaDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Dosen"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+    <!-- NIP -->
+    <TextView
+        android:id="@+id/textViewNIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NIP"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+    <!-- Jenis Kelamin -->
+    <TextView
+        android:id="@+id/textViewJenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerJenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:background="@color/black"
+        android:padding="10dp"/>
+
+    <!-- Keahlian -->
+    <TextView
+        android:id="@+id/textViewKeahlian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keahlian"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextKeahlian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Keahlian"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+    <!-- Kuota -->
+    <TextView
+        android:id="@+id/textViewKuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuota"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextKuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Kuota"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@color/white"/>
+
+    <!-- Tombol Submit dan Kembali -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/kuning"/>
+        />
+
+       <Button
+           android:id="@+id/buttonKembali"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="Kembali"
+           android:textColor="@color/black"
+           android:textSize="30dp"
+           android:layout_marginStart="40dp"
+           android:backgroundTint="@color/kuning"/>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+    
+</LinearLayout>

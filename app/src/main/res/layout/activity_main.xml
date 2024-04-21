@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAF4"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa6f73"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="SKRIPTIF"
+            android:fontFamily="@font/riborn"
+            android:textColor="@color/merah"
+            android:background="@color/kuning"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6e6e6"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/emailEditText"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/passwordEditText"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#66a8e5"
+                android:onClick="login" />
+
+            <TextView
+                android:id="@+id/forgotPasswordTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textSize="16sp"
+                android:textColor="#66a8e5"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/loginButton"
+                android:layout_centerHorizontal="true"
+                android:onClick="onForgotPasswordClick" />
+
+            <TextView
+                android:id="@+id/dont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/forgotPasswordTextView"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/registerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="16sp"
+                android:textColor="#66a8e5"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/forgotPasswordTextView"
+                android:layout_toEndOf="@id/dont"
+                android:layout_centerHorizontal="true"
+                android:onClick="onSignUpClick" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

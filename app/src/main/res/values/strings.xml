@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">uts-2</string>
+
+    <string-array name="jenis_ta_array">
+        <item>Laporan</item>
+        <item>Skripsi</item>
+    </string-array>
+
+    <!-- Calon Pembimbing -->
+    <string-array name="calon_pembimbing_array">
+        <item>Prof. AHAMAD</item>
+        <item>Dr. BELA</item>
+        <item>Dr. CHANDRA</item>
+        <!-- Tambahkan calon pembimbing lainnya jika diperlukan -->
+    </string-array>
+
+    <!-- Status -->
+    <string-array name="status_array">
+        <item>Ditolak</item>
+        <item>Diterima</item>
+    </string-array>
+
+        <string-array name="jenis_kelamin_array">
+            <item>Laki-laki</item>
+            <item>Perempuan</item>
+        </string-array>
+
+    <string-array name="kategori_ta_array">
+        <item>Individu</item>
+        <item>Kelompok</item>
+    </string-array>
+
+
+</resources>

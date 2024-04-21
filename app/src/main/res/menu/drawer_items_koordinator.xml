@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/navBeranda"
+        android:icon="@drawable/home"
+        android:title="Beranda"/>
+
+
+
+    <group
+        android:id="@+id/group1">
+
+    <item
+        android:id="@+id/navDataMahasiswa"
+        android:icon="@drawable/mahasiswa"
+        android:title="Data Mahasiswa"/>
+
+    <item
+        android:id="@+id/navDosenPembimbing"
+        android:icon="@drawable/dosenbing"
+        android:title="Dosen Pembimbing"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navDosenPenguji"
+        android:icon="@drawable/dospeng"
+        android:title="Dosen Penguji" />
+
+    <group>
+
+    <item
+        android:id="@+id/navLogout"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        android:titleTextColor="@color/merah"
+        />
+
+    </group>
+
+</menu>

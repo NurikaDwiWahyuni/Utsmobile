@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/merah"
+            android:layout_gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKRIPTIF"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/riborn"
+                android:background="@color/kuning"
+                android:textColor="@color/merah"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e6e6e6"
+                android:layout_gravity="center"
+                android:layout_marginTop="65dp"
+                android:padding="16dp">
+
+
+                <EditText
+                    android:id="@+id/nameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="text"
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="16dp" />
+
+                <EditText
+                    android:id="@+id/nimEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NIM"
+                    android:inputType="text"
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/nameEditText" />
+
+                <EditText
+                    android:id="@+id/emailEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/nimEditText" />
+
+                <EditText
+                    android:id="@+id/passwordEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/emailEditText" />
+
+                <Button
+                    android:id="@+id/signUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66a8e5"
+                    android:text="Sign Up"
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/passwordEditText"
+                    android:onClick="signUp" />
+
+                <TextView
+                    android:id="@+id/have"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@id/signUpButton"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/alreadyHaveAccountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click here"
+                    android:textSize="16sp"
+                    android:textColor="#66a8e5"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@+id/have"
+                    android:layout_below="@id/signUpButton"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAlreadyHaveAccountClick" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+</ScrollView>
